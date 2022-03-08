@@ -1,0 +1,223 @@
+.intro {
+  display: flex;
+  height: 90vh;
+  margin: auto;
+  width: 100vw;
+}
+
+.intro-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.left-wrap {
+  height: 90vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.message {
+  width: fit-content;
+  overflow: hidden;
+  color: #10dde3;
+  font-size: 30px;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.name {
+  width: 0;
+  overflow: hidden;
+  color: #10dde3;
+  font-size: 50px;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 0s 1 normal both,
+    specialeffect linear 3000ms infinite;
+}
+
+.title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.title-item {
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+  color: #10dde3;
+  display: flex;
+  align-items: center;
+  animation: specialeffect linear 3000ms infinite;
+}
+
+.description {
+  color: #10dde3;
+}
+
+/* intro title animations */
+.title-wrap {
+  height: 100%;
+  animation: move 3s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes specialeffect {
+  0% {
+    text-shadow: 1.5px -1.5px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), 0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(0, 100%, 50%, 1),
+      -1.5px 1.5px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+  25% {
+    text-shadow: -1.5px -1.5px 0 hsla(180, 100%, 50%, 1),
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px -0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px -0.25px 0 hsla(180, 100%, 50%, 1),
+      1.5px 1.5px 0 hsla(0, 100%, 50%, 1), 1px 1px 0 hsla(0, 100%, 50%, 1),
+      0.5px 0.5px 0 hsla(0, 100%, 50%, 1), 0.25px 0.25px 0 hsla(0, 100%, 50%, 1);
+  }
+  50% {
+    text-shadow: -1.5px 1.5px 0 hsla(0, 100%, 50%, 1),
+      -1px 1px 0 hsla(0, 100%, 50%, 1), -0.5px 0.5px 0 hsla(0, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(0, 100%, 50%, 1),
+      1.5px -1.5px 0 hsla(180, 100%, 50%, 1), 1px -1px 0 hsla(180, 100%, 50%, 1),
+      0.5px -0.5px 0 hsla(180, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+  75% {
+    text-shadow: 1.5px 1.5px 0 hsla(180, 100%, 50%, 1),
+      1px 1px 0 hsla(180, 100%, 50%, 1), 0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      0.25px 0.25px 0 hsla(180, 100%, 50%, 1),
+      -1.5px -1.5px 0 hsla(0, 100%, 50%, 1), -1px -1px 0 hsla(0, 100%, 50%, 1),
+      -0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      -0.25px -0.25px 0 hsla(0, 100%, 50%, 1);
+  }
+  100% {
+    text-shadow: 1.5px -1.5px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), 0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(0, 100%, 50%, 1),
+      -1.5px 1.5px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .image {
+    height: 250px;
+    width: 250px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .message {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .title-item {
+    height: 50px;
+  }
+  .left-wrap {
+    width: 100%;
+    padding: 30px;
+    height: 50vh;
+  }
+  .intro-right {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .image {
+    height: 250px;
+    width: 250px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .message {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .title-item {
+    height: 50px;
+  }
+  .left-wrap {
+    width: 100%;
+    padding: 35px;
+    height: 50vh;
+  }
+  .intro-right {
+    align-items: center;
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 880px) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .message {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .title-item {
+    height: 50px;
+  }
+  .left-wrap {
+    width: 100%;
+    padding: 35px;
+    height: 75vh;
+  }
+  .intro-right {
+    align-items: center;
+  }
+}

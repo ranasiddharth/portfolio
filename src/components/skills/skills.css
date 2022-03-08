@@ -1,0 +1,89 @@
+.skills {
+  width: calc(100% - 100px);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: #10dde3;
+  margin-bottom: 20px;
+  animation: specialeffect linear 3000ms infinite;
+}
+
+.skill-content {
+  display: flex;
+  align-items: center;
+}
+
+.skill-content:hover {
+  text-shadow: 0 0 5px #10DDE3;
+}
+
+.img {
+  height: 40px !important;
+  width: auto !important;
+}
+
+.last {
+  padding-bottom: 32px !important;
+}
+
+.text {
+  margin-left: auto;
+}
+
+@keyframes specialeffect {
+  0% {
+    text-shadow: 1.5px -1.5px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), 0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(0, 100%, 50%, 1),
+      -1.5px 1.5px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+  25% {
+    text-shadow: -1.5px -1.5px 0 hsla(180, 100%, 50%, 1),
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px -0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px -0.25px 0 hsla(180, 100%, 50%, 1),
+      1.5px 1.5px 0 hsla(0, 100%, 50%, 1), 1px 1px 0 hsla(0, 100%, 50%, 1),
+      0.5px 0.5px 0 hsla(0, 100%, 50%, 1), 0.25px 0.25px 0 hsla(0, 100%, 50%, 1);
+  }
+  50% {
+    text-shadow: -1.5px 1.5px 0 hsla(0, 100%, 50%, 1),
+      -1px 1px 0 hsla(0, 100%, 50%, 1), -0.5px 0.5px 0 hsla(0, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(0, 100%, 50%, 1),
+      1.5px -1.5px 0 hsla(180, 100%, 50%, 1), 1px -1px 0 hsla(180, 100%, 50%, 1),
+      0.5px -0.5px 0 hsla(180, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+  75% {
+    text-shadow: 1.5px 1.5px 0 hsla(180, 100%, 50%, 1),
+      1px 1px 0 hsla(180, 100%, 50%, 1), 0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      0.25px 0.25px 0 hsla(180, 100%, 50%, 1),
+      -1.5px -1.5px 0 hsla(0, 100%, 50%, 1), -1px -1px 0 hsla(0, 100%, 50%, 1),
+      -0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      -0.25px -0.25px 0 hsla(0, 100%, 50%, 1);
+  }
+  100% {
+    text-shadow: 1.5px -1.5px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), 0.5px -0.5px 0 hsla(0, 100%, 50%, 1),
+      0.25px -0.25px 0 hsla(0, 100%, 50%, 1),
+      -1.5px 1.5px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1),
+      -0.5px 0.5px 0 hsla(180, 100%, 50%, 1),
+      -0.25px 0.25px 0 hsla(180, 100%, 50%, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    width: calc(100% - 60px);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 880px) {
+  .skills {
+    width: calc(100% - 70px);
+  }
+}
