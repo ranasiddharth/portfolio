@@ -59,7 +59,7 @@ function Skills() {
                   alt=""
                   className="img"
                 />
-                <span className="text">Redux</span>
+                <span className="text">React-Redux</span>
               </div>
             </Item>
           </Grid>

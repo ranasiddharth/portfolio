@@ -37,9 +37,16 @@
 .tagcol:hover {
   box-shadow: 10px 0 5px -2px #10DDE3;
   text-shadow: 0 0 5px #10DDE3;
+  color: #10dde3 !important;
 }
 
 .tagcol:active {
+  color: white !important;
+  box-shadow: 10px 0 5px -2px white;
+  text-shadow: 0 0 5px white;
+}
+
+.onactivated {
   color: white !important;
   box-shadow: 10px 0 5px -2px white;
   text-shadow: 0 0 5px white;

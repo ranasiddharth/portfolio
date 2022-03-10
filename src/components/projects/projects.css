@@ -1,4 +1,4 @@
-.achievements {
+.projects {
   width: calc(100% - 100px);
   margin-top: 20px;
   margin-left: auto;
@@ -11,16 +11,16 @@
   animation: specialeffect linear 3000ms infinite;
 }
 
-.achievements-content {
+.projects-content {
   display: flex;
   align-items: center;
 }
 
-.achievements-content:hover {
+.projects-content:hover {
   text-shadow: 0 0 5px #10dde3;
 }
 
-.img-achieve {
+.img-project {
   height: 40px !important;
   width: auto !important;
 }
@@ -29,9 +29,14 @@
   padding-bottom: 32px !important;
 }
 
-.text-achieve {
+.text-project {
   margin-left: auto;
-  max-width: 70%;
+  max-width: 60%;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @keyframes specialeffect {
@@ -77,14 +82,14 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .achievements {
+@media screen and (max-width: 767px) {
+  .projects {
     width: calc(100% - 60px);
   }
-  .achievements-content {
+  .projects-content {
     flex-direction: column !important;
   }
-  .text-achieve {
+  .text-project {
     max-width: 100% !important;
     margin-right: auto;
     margin-left: auto;
@@ -92,14 +97,20 @@
     padding-bottom: 1em;
     font-size: 1em;
   }
-  .img-achieve {
+  .img-project {
     margin-top: 17px;
     margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 880px) {
-  .achievements {
+  .projects {
     width: calc(100% - 70px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .btns {
+    justify-content: space-between !important;
   }
 }
