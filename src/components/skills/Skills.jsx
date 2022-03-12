@@ -30,11 +30,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/64px-ISO_C%2B%2B_Logo.svg.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://isocpp.org/">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/64px-ISO_C%2B%2B_Logo.svg.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">C++</span>
               </div>
             </Item>
@@ -42,11 +44,14 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/64px-React-icon.svg.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://reactjs.org/">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/64px-React-icon.svg.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
+
                 <span className="text">ReactJS</span>
               </div>
             </Item>
@@ -54,11 +59,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://img.icons8.com/color/344/redux.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://react-redux.js.org/">
+                  <img
+                    src="https://img.icons8.com/color/344/redux.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">React-Redux</span>
               </div>
             </Item>
@@ -66,11 +73,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://www.javascript.com/">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">Javascript</span>
               </div>
             </Item>
@@ -78,11 +87,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://img.icons8.com/color/344/html-5--v1.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://html.com/">
+                  <img
+                    src="https://img.icons8.com/color/344/html-5--v1.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">HTML</span>
               </div>
             </Item>
@@ -90,11 +101,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://img.icons8.com/color/344/css3.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                  <img
+                    src="https://img.icons8.com/color/344/css3.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">CSS</span>
               </div>
             </Item>
@@ -102,11 +115,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://img.icons8.com/color/452/material-ui.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://mui.com/">
+                  <img
+                    src="https://img.icons8.com/color/452/material-ui.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">Material-UI</span>
               </div>
             </Item>
@@ -114,11 +129,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6}>
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/64px-Python-logo-notext.svg.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://www.python.org/">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/64px-Python-logo-notext.svg.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">Python</span>
               </div>
             </Item>
@@ -126,11 +143,13 @@ function Skills() {
           <Grid item xs={12} md={4} sm={6} className="last">
             <Item>
               <div className="skill-content">
-                <img
-                  src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/344/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-filled-tal-revivo.png"
-                  alt=""
-                  className="img"
-                />
+                <a href="https://www.djangoproject.com/">
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/344/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-filled-tal-revivo.png"
+                    alt=""
+                    className="img"
+                  />
+                </a>
                 <span className="text">Django</span>
               </div>
             </Item>

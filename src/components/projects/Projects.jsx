@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { styled } from "@mui/material/styles";
-import IMG from "../../images/imglogo.png";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import Dialog from "@mui/material/Dialog";
 import Button from "@mui/material/Button";
 
 import "./projects.css";
@@ -12,6 +10,7 @@ import Proj1 from "./screenshots/Proj1";
 import Proj2 from "./screenshots/Proj2";
 import Proj3 from "./screenshots/Proj3";
 import Proj4 from "./screenshots/Proj4";
+import LinksMenu from "./linksmenu/LinksMenu";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#212529",
@@ -123,19 +122,7 @@ function Projects() {
                       organisations and much more.
                     </p>
                     <div className="btns">
-                      <Button
-                        sx={{
-                          "&.MuiButton-root": {
-                            backgroundColor: "black",
-                            color: "#10DDE3",
-                          },
-                        }}
-                        variant="contained"
-                        href="https://github.com/IMGIITRoorkee/omniport-frontend-marketplace"
-                        target="_blank"
-                      >
-                        Github Link
-                      </Button>
+                      <LinksMenu />
                       <Button
                         sx={{
                           "&.MuiButton-root": {
@@ -217,7 +204,7 @@ function Projects() {
                           },
                         }}
                         variant="contained"
-                        href="https://github.com/pakka-papad/Foodie"
+                        href="https://github.com/ranasiddharth/Foodie"
                         target="_blank"
                       >
                         Github Link

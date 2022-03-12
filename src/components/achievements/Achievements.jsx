@@ -49,9 +49,7 @@ function Achievements() {
                     2
                   </div>
                   <div className="text-achieve">
-                    Cleared stage 2 and secured state rank 3 in stage 1 in
-                    National Talent Search Organisation, held by the Government
-                    of India.
+                    Awarded the prestigious NTSE Scholarship by NCERT, Delhi.
                   </div>
                 </div>
               </Item>
@@ -63,7 +61,7 @@ function Achievements() {
                     3
                   </div>
                   <div className="text-achieve">
-                    Secured All India Rank of 23 in final stage of SMTE
+                    Secured All India Rank 23 in the final stage of SMTE
                     examination conducted by the Delhi Public School Society.
                   </div>
                 </div>
@@ -79,10 +77,12 @@ function Achievements() {
             <Grid item xs={12} md={12} sm={12} className="last">
               <Item>
                 <div className="achievements-content">
-                  <img src={IMG} alt="" className="img-achieve" />
+                  <a href="https://channeli.in/maintainer_site/">
+                    <img src={IMG} alt="" className="img-achieve" />
+                  </a>
                   <div className="text-achieve">
                     I Work as a project associate at Information Management
-                    Group, IITR, handling the various applications used by the
+                    Group, handling the various applications used by the
                     students and faculty of IITR.
                   </div>
                 </div>
