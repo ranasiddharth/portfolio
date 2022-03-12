@@ -69,8 +69,8 @@ function Projects() {
             <Grid item xs={12} md={12} sm={12}>
               <Item>
                 <div className="projects-content">
-                  <div className="num" style={{ fontSize: "3em" }}>
-                    1
+                  <div className="heading">
+                    GoTasks
                   </div>
                   <div className="text-project">
                     <p>
@@ -112,8 +112,8 @@ function Projects() {
             <Grid item xs={12} md={12} sm={12}>
               <Item>
                 <div className="projects-content">
-                  <div className="num" style={{ fontSize: "3em" }}>
-                    2
+                  <div className="heading" s>
+                    Rstore
                   </div>
                   <div className="text-project">
                     <p>
@@ -144,8 +144,8 @@ function Projects() {
             <Grid item xs={12} md={12} sm={12}>
               <Item>
                 <div className="projects-content">
-                  <div className="num" style={{ fontSize: "3em" }}>
-                    3
+                  <div className="heading" s>
+                    Arm
                   </div>
                   <div className="text-project">
                     <p>
@@ -187,8 +187,8 @@ function Projects() {
             <Grid item xs={12} md={12} sm={12} className="last">
               <Item>
                 <div className="projects-content">
-                  <div className="num" style={{ fontSize: "3em" }}>
-                    4
+                  <div className="heading" s>
+                    Foodie
                   </div>
                   <div className="text-project">
                     <p>

@@ -25,6 +25,11 @@
   width: auto !important;
 }
 
+.heading {
+  font-size: 2.5em;
+  font-style: italic;
+}
+
 .last {
   padding-bottom: 32px !important;
 }
