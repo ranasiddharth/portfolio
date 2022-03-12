@@ -17,7 +17,7 @@ const Navbar = () => {
       element3.classList.remove("onactivated"); 
       element4.classList.remove("onactivated");
       element5.classList.remove("onactivated"); 
-    }else if(place==='/'){
+    }else if(place==='/portfolio'){
       element1.classList.remove("onactivated"); 
       element2.classList.add("onactivated"); 
       element3.classList.remove("onactivated"); 
@@ -87,7 +87,7 @@ const Navbar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item" onClick={handleActiveness}>
-                  <Link to="/" className="nav-link tagcol" id="introduction">
+                  <Link to="/portfolio" className="nav-link tagcol" id="introduction">
                     Introduction
                   </Link>
                 </li>
