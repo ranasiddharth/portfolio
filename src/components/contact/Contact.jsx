@@ -178,7 +178,7 @@ const Contact = () => {
                 class="btn"
                 style={{ backgroundColor: "#10DDE3" }}
               >
-                Submit
+                Send
               </button>
             </form>
           </div>

@@ -1,48 +1,50 @@
-.projects {
+.education {
   width: calc(100% - 100px);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header {
+.institute {
   color: #10dde3;
   margin-bottom: 20px;
   animation: specialeffect linear 3000ms infinite;
 }
 
-.projects-content {
+.education-content {
   display: flex;
   align-items: center;
 }
 
-.projects-content:hover {
+.education-content:hover {
   text-shadow: 0 0 5px #10dde3;
-}
-
-.img-project {
-  height: 40px !important;
-  width: auto !important;
-}
-
-.heading {
-  font-size: 2em;
-  font-style: italic;
-  animation: specialeffect linear 3000ms infinite;
 }
 
 .last {
   padding-bottom: 32px !important;
 }
 
-.text-project {
-  margin-left: auto;
-  max-width: 60%;
+.text-education {
+  margin-right: auto;
+  max-width: calc(100% - 145px);
+  text-align: left;
 }
 
-.btns {
+.institute-spans {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 140px;
+}
+
+.institute-spans > span {
+  display: block !important;
+  text-align: right;
+}
+
+.institute-paras {
+  margin-bottom: 0px;
 }
 
 @keyframes specialeffect {
@@ -88,35 +90,27 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .projects {
+@media screen and (max-width: 480px) {
+  .education {
     width: calc(100% - 60px);
   }
-  .projects-content {
-    flex-direction: column !important;
-  }
-  .text-project {
-    max-width: 100% !important;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 1.25em;
-    padding-bottom: 1em;
+  .institute {
     font-size: 1em;
   }
-  .img-project {
-    margin-top: 17px;
-    margin-bottom: 10px;
+  .institute-paras {
+    font-size: 0.8em;
+  }
+  .institute-spans > span {
+    font-size: 0.8em;
+  }
+  .institute-spans {
+    min-width: 110px !important;
+    max-width: 110px !important;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 880px) {
-  .projects {
+  .education {
     width: calc(100% - 70px);
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .btns {
-    justify-content: space-between !important;
   }
 }

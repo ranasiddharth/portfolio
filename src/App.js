@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Introduction from "./components/introduction/Introduction";
+import Education from "./components/education/Education";
 import Achievements from "./components/achievements/Achievements";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
@@ -15,6 +16,9 @@ function App() {
       <Routes>
         <Route exact path="/portfolio" element={<Introduction />}>
           {/* Home page */}
+        </Route>
+        <Route exact path="/education" element={<Education />}>
+          {/* Education page */}
         </Route>
         <Route exact path="/achievements" element={<Achievements />}>
           {/* Achievements page */}
